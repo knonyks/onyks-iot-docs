@@ -29,5 +29,5 @@
 - zasilanie 3,3 V
 - komunikacja Bluetooth (na tym etapie projektu to tylko ciekawostka)
 - nie będzie programatora na płytce (programatory będą osobno)
-- interfejsy JTAG i USB do programowania i debuggowania
+- interfejsy UART i JTAG do programowania i debuggowania
 - przycisk "reset"
