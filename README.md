@@ -48,8 +48,8 @@
     2. GND
     3. TXD (UART Transmit)
     4. RXD (UART Receive)
-    5. EN (Enable/Reset)
-    6. GPIO0 (Boot mode selection)
+    5. DTR
+    6. RTS
 
 - JTAG for debugging (TMS, TCK, TDI, TDO, GND)
   - `Conn_02x05_Odd_Even`
