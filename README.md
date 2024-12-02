@@ -42,13 +42,17 @@
 ### Connectors
 
 - UART for programming
-  1. VCC (3.3V)
-  2. GND
-  3. TXD (UART Transmit)
-  4. RXD (UART Receive)
-  5. EN (Enable/Reset)
-  6. GPIO0 (Boot mode selection)
+  - `Conn_01x06_Pin`
+  - `Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical`
+    1. VCC (3.3V)
+    2. GND
+    3. TXD (UART Transmit)
+    4. RXD (UART Receive)
+    5. EN (Enable/Reset)
+    6. GPIO0 (Boot mode selection)
 
 - JTAG for debugging (TMS, TCK, TDI, TDO, GND)
+  - `Conn_02x05_Odd_Even`
+  - `Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical`
 
 - UART for communication
