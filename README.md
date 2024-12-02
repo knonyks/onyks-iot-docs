@@ -31,3 +31,24 @@
 - nie będzie programatora na płytce (programatory będą osobno)
 - interfejsy UART i JTAG do programowania i debuggowania
 - przycisk "reset"
+
+### Components
+
+- LDO: SOT-23-5 (DYD) [TLV75733PDBVR](https://www.ti.com/lit/ds/symlink/tlv757p.pdf?ts=1733149199380&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV757P%252Fpart-details%252FTLV75710PDBVR)
+- NPN: SOT-23-3 [SS8050](https://www.micros.com.pl/mediaserver/TSS8050_BORN_0001.pdf)
+- LED: 5050 [WS2812B](https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
+- Buttons: [6x3.5mm](https://pl.aliexpress.com/item/4000546183248.html?spm=a2g0o.order_list.order_list_main.169.6deb1c24ZkOZZl&gatewayAdapt=glo2pol) np. `Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS`
+
+### Connectors
+
+- UART for programming
+  1. VCC (3.3V)
+  2. GND
+  3. TXD (UART Transmit)
+  4. RXD (UART Receive)
+  5. EN (Enable/Reset)
+  6. GPIO0 (Boot mode selection)
+
+- JTAG for debugging (TMS, TCK, TDI, TDO, GND)
+
+- UART for communication
