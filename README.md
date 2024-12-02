@@ -56,3 +56,6 @@
   - `Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical`
 
 - UART for communication
+    1. GND
+    2. TXD (UART Transmit)
+    3. RXD (UART Receive)
