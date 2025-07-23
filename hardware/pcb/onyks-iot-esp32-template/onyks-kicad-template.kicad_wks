@@ -1,0 +1,225 @@
+(kicad_wks
+	(version 20231118)
+	(generator "pl_editor")
+	(generator_version "9.0")
+	(setup
+		(textsize 1.5 1.5)
+		(linewidth 0.15)
+		(textlinewidth 0.15)
+		(left_margin 10)
+		(right_margin 10)
+		(top_margin 10)
+		(bottom_margin 10)
+	)
+	(rect
+		(name "")
+		(start 110 34)
+		(end 2 2)
+		(comment "rect around the title block")
+	)
+	(rect
+		(name "")
+		(start 0 0 ltcorner)
+		(end 0 0)
+		(repeat 2)
+		(incrx 2)
+		(incry 2)
+	)
+	(line
+		(name "")
+		(start 50 2 ltcorner)
+		(end 50 0 ltcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 50 2 lbcorner)
+		(end 50 0 lbcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 lbcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 0 50 ltcorner)
+		(end 2 50 ltcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(line
+		(name "")
+		(start 0 50 rtcorner)
+		(end 2 50 rtcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 rtcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(tbtext "Date: ${ISSUE_DATE}"
+		(name "")
+		(pos 87 6.9)
+	)
+	(line
+		(name "")
+		(start 110 5.5)
+		(end 2 5.5)
+	)
+	(tbtext "${KICAD_VERSION}"
+		(name "")
+		(pos 109 4.1)
+		(comment "Kicad version")
+	)
+	(line
+		(name "")
+		(start 110 8.5)
+		(end 2 8.5)
+	)
+	(tbtext "Rev: ${REVISION}"
+		(name "")
+		(pos 24 6.9)
+		(font bold)
+	)
+	(tbtext "Size: ${PAPER}"
+		(name "")
+		(pos 109 6.9)
+		(comment "Paper format name")
+	)
+	(tbtext "Id: ${#}/${##}"
+		(name "")
+		(pos 24 4.1)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 110 12.5)
+		(end 2 12.5)
+	)
+	(tbtext "Title: ${TITLE}"
+		(name "")
+		(pos 109 10.7)
+		(font
+			(size 2 2) bold italic)
+	)
+	(tbtext "File: ${FILENAME}"
+		(name "")
+		(pos 109 14.3)
+	)
+	(line
+		(name "")
+		(start 110 18.5)
+		(end 2 18.5)
+	)
+	(tbtext "Sheet: ${SHEETPATH}"
+		(name "")
+		(pos 109 17)
+	)
+	(tbtext "${COMPANY}"
+		(name "")
+		(pos 109 20)
+		(font bold)
+		(comment "Company name")
+	)
+	(tbtext "${COMMENT1}"
+		(name "")
+		(pos 109 23)
+		(comment "Comment 0")
+	)
+	(tbtext "${COMMENT2}"
+		(name "")
+		(pos 109 26)
+		(comment "Comment 1")
+	)
+	(tbtext "${COMMENT3}"
+		(name "")
+		(pos 109 29)
+		(comment "Comment 2")
+	)
+	(tbtext "${AUTHORS}"
+		(name "")
+		(pos 109 32)
+		(comment "Comment 3")
+	)
+	(line
+		(name "")
+		(start 90 8.5)
+		(end 90 5.5)
+	)
+	(line
+		(name "")
+		(start 26 8.5)
+		(end 26 2)
+	)
+	(bitmap
+		(name "")
+		(pos 9.685 26.398)
+		(scale 0.1164705882)
+		(data "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"
+		)
+	)
+)

@@ -1,0 +1,183 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "989bcf9e-b73b-4d3a-9729-cc5398f58d21")
+	(paper "A4")
+	(title_block
+		(title "${PROJECT_NAME}")
+		(date "${ISSUE_DATE}")
+		(rev "${REVISION}")
+		(company "${COMPANY} ${COMPANY_GITHUB}")
+	)
+	(lib_symbols)
+	(sheet
+		(at 34.29 31.75)
+		(size 36.83 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "08cd8aa3-60be-4e3a-a6f9-a7882221e0fa")
+		(property "Sheetname" "Power supply"
+			(at 34.29 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 34.29 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "onyks-iot-esp32-template"
+				(path "/989bcf9e-b73b-4d3a-9729-cc5398f58d21"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 72.39)
+		(size 38.1 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4b1c1efc-9760-4233-95da-3d1bfd0eda7c")
+		(property "Sheetname" "Example peripherals"
+			(at 165.1 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "example_peripherals.kicad_sch"
+			(at 165.1 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "onyks-iot-esp32-template"
+				(path "/989bcf9e-b73b-4d3a-9729-cc5398f58d21"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 71.12)
+		(size 38.1 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a659495f-455d-4c86-927d-60168a69ff06")
+		(property "Sheetname" "MCU"
+			(at 72.39 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 72.39 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "onyks-iot-esp32-template"
+				(path "/989bcf9e-b73b-4d3a-9729-cc5398f58d21"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "onyks-kicad-template.kicad_wks")
+			(type worksheet)
+			(data |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|
+			)
+			(checksum "AE22D28333871AE8173DCBEB2DA5E723")
+		)
+	)
+)
